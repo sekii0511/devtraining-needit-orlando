@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Only display What needed choices that match the Request type value.</description>
+        <field>u_request_type</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>NeedIt Request Type Options</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+		if ( newValue == '') {
+			return;
+		}
+		//What neededの値の取得
+		var whatneeded = g_form.getValue('u_what_needed');
+		
+		// What needed選択肢をクリア
+		g_form.clearOptions('u_what_needed');
+		
+		// もしRequest typeの値はhrと
+		// 3つ選択肢を追加
+		if(newValue == 'hr'){
+			g_form.addOption('u_what_needed','hr1','Human Resources 1');
+			g_form.addOption('u_what_needed','hr2','Human Resources 2');
+			g_form.addOption('u_what_needed','other','Other');
+		}
+		// もしRequest typeの値はfacilitiesと, add
+		//3つ選択肢を追加
+		// choice list
+		if(newValue == 'facilities'){
+			g_form.addOption('u_what_needed','facilities1','Facilities 1');
+			g_form.addOption('u_what_needed','facilities2','Facilities 2');
+			g_form.addOption('u_what_needed','other','Other');
+		}
+		// もしRequest typeの値はlegalと, add
+		// 3つ選択肢を追加
+		// choice list
+		if(newValue == 'legal'){
+			g_form.addOption('u_what_needed','legal1','Legal 1');
+			g_form.addOption('u_what_needed','legal2','Legal 2');
+			g_form.addOption('u_what_needed','other','Other');
+		}
+		
+		// もし画面がLoadingしているその上に新規レコードではないの場合What neededから取得された値をそのまま設定します。
+		// value from the record before it was loaded
+		if(isLoading && !g_form.isNewRecord()){
+			g_form.setValue('u_what_needed', whatneeded);
+		}
+	}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-03 02:52:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b19b7a89db875010cba9a9954b9619af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Request Type Options</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_client_b19b7a89db875010cba9a9954b9619af</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-03 02:52:01</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
