@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_help_content">
+    <sys_embedded_help_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <content><![CDATA[<h1 class="title topictitle1">Lists</h1>
+<p><a title="A response time indicator may appear at the bottom right of forms and in the list view for List v2." href="https://docs.servicenow.com/bundle/orlando-platform-user-interface/page/use/common-ui-elements/concept/c_ResponseTimeIndicator.html#concepto243pmcp" target="_blank" rel="noopener">A response time indicator may appear at the bottom right of forms and in the list view for List v2.</a>  may appear at the bottom right of some lists to indicate the processing time required to display the list.</p>
+<div class="related-links role-embedded_help_admin tm-element">
+<div class="relinfo">
+<div class="reltitle">
+<h2 id="d262201e128" class="title sectiontitle">Hierarchical lists</h2>
+<div>Hierarchical lists allow users to view records from related lists directly from a v2 list without navigating to a form.</div>
+</div>
+</div>
+</div>
+<div class="related-links role-embedded_help_admin tm-element">
+<div class="relinfo">
+<div class="reltitle">      About this task<br />
+<div>The following procedures describe functions that users can configure or use with lists.</div>
+</div>
+</div>
+</div>
+<p> </p>]]></content>
+        <last_sync/>
+        <modifier>normal</modifier>
+        <name>NeedIt List - Admin</name>
+        <page>x_58872_needit_needit_list</page>
+        <product>1</product>
+        <qualifier/>
+        <role display_value="x_58872_needit.admin" name="x_58872_needit.admin">168e57609f213200bde5f79ff57fcfb4</role>
+        <role_order>10</role_order>
+        <snc_created>false</snc_created>
+        <sys_class_name>sys_embedded_help_content</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-23 03:20:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c045462fdb531010cba9a9954b96199f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt List - Admin</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_embedded_help_content_c045462fdb531010cba9a9954b96199f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-23 03:20:39</sys_updated_on>
+        <version>all</version>
+    </sys_embedded_help_content>
+    <sys_translated_text action="delete_multiple" query="documentkey=c045462fdb531010cba9a9954b96199f"/>
+</record_update>
