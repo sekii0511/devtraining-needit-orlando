@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_parameter_set">
+    <sys_atf_parameter_set action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>First name = NeedIt
+Last name = User
+Role = x_58872_needit.needit_user</description>
+        <order>1</order>
+        <parameters/>
+        <sys_class_name>sys_atf_parameter_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-29 05:05:20</sys_created_on>
+        <sys_id>0cf755eddb235010cba9a9954b96195c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_parameter_set_0cf755eddb235010cba9a9954b96195c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-29 05:05:20</sys_updated_on>
+        <test display_value="Create NeedIt Module">e0161d6ddb235010cba9a9954b9619c9</test>
+    </sys_atf_parameter_set>
+    <sys_variable_value action="delete_multiple" query="document_key=0cf755eddb235010cba9a9954b96195c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_parameter_set</document>
+        <document_key>0cf755eddb235010cba9a9954b96195c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-29 05:05:20</sys_created_on>
+        <sys_id>7428d5eddb235010cba9a9954b9619ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-29 05:05:20</sys_updated_on>
+        <value>User</value>
+        <variable display_value="">9947d9addb235010cba9a9954b9619d0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_parameter_set</document>
+        <document_key>0cf755eddb235010cba9a9954b96195c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-29 05:05:20</sys_created_on>
+        <sys_id>b028d5eddb235010cba9a9954b9619ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-29 05:05:20</sys_updated_on>
+        <value>4e42fb8d0fa83200cd674f8ce1050e72</value>
+        <variable display_value="">47679daddb235010cba9a9954b961948</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_parameter_set</document>
+        <document_key>0cf755eddb235010cba9a9954b96195c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-29 05:05:20</sys_created_on>
+        <sys_id>f828d5eddb235010cba9a9954b9619cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-29 05:05:20</sys_updated_on>
+        <value>NeedIt</value>
+        <variable display_value="">cdf695addb235010cba9a9954b9619ed</variable>
+    </sys_variable_value>
+</record_update>
